@@ -1,0 +1,72 @@
+*{
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+.post-items{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  gap: 2rem;
+  padding: 1rem;
+}
+
+.header-links{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  align-items: center;
+  place-content: center;
+  padding: 1rem;
+}
+.header h1 {
+  padding: 1rem;
+}
+.header{
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
+.profile-image{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-right: 1rem;
+}
+.post{
+  display: grid;
+  width: 600px;
+  height: 800px;
+  border: solid 1px gray;
+  padding: 1rem;
+  align-content: center;
+  gap: 1rem;
+  border-radius: 10px;
+}
+.profile-image-name{
+  display: grid;
+  grid-auto-flow: column;
+  place-content: start;
+  align-items: center;
+}
+.post-image{
+  width: 100%;
+  border-radius: 10px;
+}
+.likes{
+  font-size: 20px;
+  display: grid;
+  gap: 1rem;
+  grid-auto-flow: column;
+  place-content: center;
+  align-items: center;
+}
+button {
+  background-color: rgba(118, 84, 84, 0);
+  color: rgb(255, 0, 0);
+  border: none;
+  font-size: 30px;
+  cursor: pointer;
+}
